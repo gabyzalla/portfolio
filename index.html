@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriela Zala</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="translateBtn" class="translate-button">
+        <i class="fas fa-globe"></i>
+        <span>English</span>
+    </button>
+
+    <div id="pt-version">
+    <div class="translate-wrapper">
+        <div id="google_translate_element"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home">GZ</a>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#formacao">Formação</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#certificados">Certificados</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Gabriela Zala</h1>
+            <h2 class="hero-subtitle">Desenvolvedora Full Stack</h2>
+            <p class="hero-description">
+                Sou uma entusiasta de tecnologia e inovação, com foco em Engenharia de Computação. 
+                Sempre em busca de aprimorar minhas habilidades técnicas e me envolver em projetos 
+                que contribuem para a evolução digital e a criação de soluções eficientes e impactantes.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projetos" class="btn primary">Ver Projetos</a>
+                <a href="#contato" class="btn secondary">Contato</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <!-- Você pode adicionar uma imagem sua profissional aqui -->
+            <div class="profile-shape"></div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Estudante de Engenharia da Computação na FACENS, apaixonada por tecnologia e inovação. Busco constantemente novos desafios e oportunidades para crescer profissionalmente.</p>
+                <div class="skills-container">
+                    <div class="skills-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Salesforce</span>
+                        <span class="skill-tag">Metodologias Ágeis</span>
+                        <span class="skill-tag">Design e UX/UI</span>
+                        <span class="skill-tag">Desenvolvimento Web</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiência</h2>
+        <div class="section-content">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Smash Center Eireli</h3>
+                        <p class="timeline-date">2021 - 2023 (1 ano e 9 meses)</p>
+                        <p class="position">Assistente administrativo e de marketing</p>
+                        <ul>
+                            <li>Atendimento ao cliente, online e presencial</li>
+                            <li>Manutenção de marketplaces e loja virtual</li>
+                            <li>Emissão de Notas Fiscais e encordoamento de raquetes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Diário de Sorocaba Jornal e Editora LTDA</h3>
+                        <p class="timeline-date">12/2019 - 12/2020 (1 ano)</p>
+                        <p class="position">Assistente administrativa</p>
+                        <ul>
+                            <li>Faturamento e cobrança</li>
+                            <li>Emissão de contratos e Notas Fiscais</li>
+                            <li>Controle de contas a receber e atendimento ao cliente</li>
+                            <li>Manutenção do site</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Center Cell</h3>
+                        <p class="timeline-date">09/2018 - 12/2019 (1 ano e 3 meses)</p>
+                        <p class="position">Aprendiz administrativo/operacional</p>
+                        <ul>
+                            <li>Conferência Samsung (abertura de OS)</li>
+                            <li>Estoque Samsung (devoluções de peças novas, irregulares e SCRAP para a filial Samsung)</li>
+                            <li>Check Kit</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação</h2>
+        <div class="section-content">
+            <div class="education-card">
+                <h3>Engenharia de Computação</h3>
+                <p class="institution">FACENS - Faculdade de Engenharia de Sorocaba</p>
+                <p class="period">7º Semestre - Previsão de Conclusão: Dezembro/2026</p>
+            </div>
+
+            <div class="education-card">
+                <h3>Técnico em Nutrição e Dietética</h3>
+                <p class="institution">ETEC Rubens de Faria e Souza</p>
+                <p class="period">Concluído em 2019</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="section-content">
+            <div class="skills-grid">
+                <!-- Desenvolvimento -->
+                <div class="skill-category">
+                    <h3>Desenvolvimento</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <span class="skill-text">HTML/CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <span class="skill-text">JavaScript/TypeScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-angular"></i></div>
+                            <span class="skill-text">Angular</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-java"></i></div>
+                            <span class="skill-text">Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-salesforce"></i></div>
+                            <span class="skill-text">Apex (Salesforce)</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                            <span class="skill-text">Salesforce Development</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-bolt"></i></div>
+                            <span class="skill-text">Lightning Web Components</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Banco de Dados -->
+                <div class="skill-category">
+                    <h3>Banco de Dados</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <span class="skill-text">SQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                            <span class="skill-text">Modelagem de Dados</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-server"></i></div>
+                            <span class="skill-text">Implementação de BD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ferramentas & Tecnologias -->
+                <div class="skill-category">
+                    <h3>Ferramentas & Tecnologias</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-salesforce"></i></div>
+                            <span class="skill-text">Salesforce Platform</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <span class="skill-text">Visual Studio Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                            <span class="skill-text">Git/GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+                            <span class="skill-text">Metodologias Ágeis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="soft-skills">
+                        <div class="soft-skill-item">
+                            <div class="soft-skill-title">Resolução de Problemas</div>
+                            <div class="soft-skill-description">Desenvolvimento de soluções eficientes</div>
+                        </div>
+                        <div class="soft-skill-item">
+                            <div class="soft-skill-title">Trabalho em Equipe</div>
+                            <div class="soft-skill-description">Colaboração multidisciplinar</div>
+                        </div>
+                        <div class="soft-skill-item">
+                            <div class="soft-skill-title">Comunicação</div>
+                            <div class="soft-skill-description">Comunicação clara e eficaz</div>
+                        </div>
+                        <div class="soft-skill-item">
+                            <div class="soft-skill-title">Organização</div>
+                            <div class="soft-skill-description">Gestão eficiente de projetos</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="section-content">
+            <div class="project-card featured">
+                <h3>Sistema de Gestão de Encordoamentos - Smash Center</h3>
+                <p class="project-period">2024</p>
+                <div class="project-description">
+                    <p>Desenvolvimento de um sistema completo de gestão de encordoamentos para raquetes de tênis utilizando Salesforce, proporcionando controle total das operações da empresa.</p>
+                    
+                    <h4>Funcionalidades Principais:</h4>
+                    <ul>
+                        <li>Gestão de pedidos de encordoamento</li>
+                        <li>Histórico completo de encordoamentos por cliente</li>
+                        <li>Sistema de relatórios gerenciais</li>
+                        <li>Controle de tensões aplicadas nas cordas (main e cross)</li>
+                        <li>Cadastro detalhado de raquetes e especificações</li>
+                        <li>Gestão de valores e serviços</li>
+                    </ul>
+
+                    <h4>Tecnologias Utilizadas:</h4>
+                    <div class="project-tags">
+                        <span>Salesforce</span>
+                        <span>Apex</span>
+                        <span>SOQL</span>
+                        <span>Lightning Web Components</span>
+                        <span>Salesforce Reports</span>
+                    </div>
+
+                    <h4>Resultados:</h4>
+                    <ul>
+                        <li>Otimização do processo de gestão de encordoamentos</li>
+                        <li>Melhoria no controle de pedidos</li>
+                        <li>Acesso rápido ao histórico de serviços por cliente</li>
+                        <li>Geração de relatórios automatizados para análise de dados</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificados">
+        <h2>Certificados</h2>
+        <div class="section-content">
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <h3>Implementando Banco de Dados</h3>
+                    <p class="institution">Fundação Bradesco - Escola Virtual</p>
+                    <p class="details">
+                        <span class="duration">Carga horária: 15 horas</span>
+                        <span class="completion-date">Conclusão: Novembro/2024</span>
+                    </p>
+                    <div class="certificate-tags">
+                        <span>Banco de Dados</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <h3>Desenvolvendo Aplicações Mobile com Android Studio</h3>
+                    <p class="institution">Fundação Bradesco - Escola Virtual</p>
+                    <p class="details">
+                        <span class="duration">Carga horária: 15 horas</span>
+                        <span class="completion-date">Conclusão: Setembro/2023</span>
+                    </p>
+                    <div class="certificate-tags">
+                        <span>Android</span>
+                        <span>Mobile</span>
+                        <span>Java</span>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <h3>Linguagem de Programação JAVA - Avançado</h3>
+                    <p class="institution">Fundação Bradesco - Escola Virtual</p>
+                    <p class="details">
+                        <span class="duration">Carga horária: 16 horas</span>
+                        <span class="completion-date">Conclusão: Setembro/2023</span>
+                    </p>
+                    <div class="certificate-tags">
+                        <span>Java</span>
+                        <span>Programação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="idioma" class="idioma-section">
+        <h2>Idioma</h2>
+        <div class="idioma-card">
+            <div class="idioma-content">
+                <i class="fas fa-globe"></i>
+                <h3>Inglês</h3>
+                <div class="nivel">
+                    <span class="nivel-texto">Intermediário</span>
+                    <div class="nivel-barra">
+                        <div class="progresso"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <div class="contact-container">
+            <div class="contact-item">
+                <i class="fab fa-whatsapp"></i>
+                <div class="contact-info">
+                    <h3>WhatsApp</h3>
+                    <a href="https://wa.me/5515997903338">(15) 99790-3338</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="far fa-envelope"></i>
+                <div class="contact-info">
+                    <h3>E-mail</h3>
+                    <a href="mailto:gaby_zala@hotmail.com">gaby_zala@hotmail.com</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <div class="contact-info">
+                    <h3>LinkedIn</h3>
+                    <a href="#">Gabriela Zala</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <div class="contact-info">
+                    <h3>GitHub</h3>
+                    <a href="#">@GabrielaZala</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="contact-info">
+                    <h3>Localização</h3>
+                    <p>Sorocaba - SP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <div id="en-version" style="display: none;">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Estudante de Engenharia da Computação na FACENS, apaixonada por tecnologia e inovação. Busco constantemente novos desafios e oportunidades para crescer profissionalmente.</p>
+                    <div class="skills-container">
+                        <div class="skills-tags">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Salesforce</span>
+                            <span class="skill-tag">Metodologias Ágeis</span>
+                            <span class="skill-tag">Design e UX/UI</span>
+                            <span class="skill-tag">Desenvolvimento Web</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="section-content">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Smash Center Eireli</h3>
+                            <p class="timeline-date">2021 - 2023 (1 ano e 9 meses)</p>
+                            <p class="position">Assistente administrativo e de marketing</p>
+                            <ul>
+                                <li>Atendimento ao cliente, online e presencial</li>
+                                <li>Manutenção de marketplaces e loja virtual</li>
+                                <li>Emissão de Notas Fiscais e encordoamento de raquetes</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Diário de Sorocaba Jornal e Editora LTDA</h3>
+                            <p class="timeline-date">12/2019 - 12/2020 (1 ano)</p>
+                            <p class="position">Assistente administrativa</p>
+                            <ul>
+                                <li>Faturamento e cobrança</li>
+                                <li>Emissão de contratos e Notas Fiscais</li>
+                                <li>Controle de contas a receber e atendimento ao cliente</li>
+                                <li>Manutenção do site</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Center Cell</h3>
+                            <p class="timeline-date">09/2018 - 12/2019 (1 ano e 3 meses)</p>
+                            <p class="position">Aprendiz administrativo/operacional</p>
+                            <ul>
+                                <li>Conferência Samsung (abertura de OS)</li>
+                                <li>Estoque Samsung (devoluções de peças novas, irregulares e SCRAP para a filial Samsung)</li>
+                                <li>Check Kit</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="section-content">
+                <div class="education-card">
+                    <h3>Engenharia de Computação</h3>
+                    <p class="institution">FACENS - Faculdade de Engenharia de Sorocaba</p>
+                    <p class="period">7º Semestre - Previsão de Conclusão: Dezembro/2026</p>
+                </div>
+
+                <div class="education-card">
+                    <h3>Técnico em Nutrição e Dietética</h3>
+                    <p class="institution">ETEC Rubens de Faria e Souza</p>
+                    <p class="period">Concluído em 2019</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="section-content">
+                <div class="skills-grid">
+                    <!-- Desenvolvimento -->
+                    <div class="skill-category">
+                        <h3>Desenvolvimento</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                                <span class="skill-text">HTML/CSS</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                                <span class="skill-text">JavaScript/TypeScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-angular"></i></div>
+                                <span class="skill-text">Angular</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-java"></i></div>
+                                <span class="skill-text">Java</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-salesforce"></i></div>
+                                <span class="skill-text">Apex (Salesforce)</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                                <span class="skill-text">Salesforce Development</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-bolt"></i></div>
+                                <span class="skill-text">Lightning Web Components</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Banco de Dados -->
+                    <div class="skill-category">
+                        <h3>Banco de Dados</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                                <span class="skill-text">SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                                <span class="skill-text">Modelagem de Dados</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-server"></i></div>
+                                <span class="skill-text">Implementação de BD</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ferramentas & Tecnologias -->
+                    <div class="skill-category">
+                        <h3>Ferramentas & Tecnologias</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-salesforce"></i></div>
+                                <span class="skill-text">Salesforce Platform</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                                <span class="skill-text">Visual Studio Code</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                                <span class="skill-text">Git/GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+                                <span class="skill-text">Metodologias Ágeis</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <div class="soft-skills">
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-title">Resolução de Problemas</div>
+                                <div class="soft-skill-description">Desenvolvimento de soluções eficientes</div>
+                            </div>
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-title">Trabalho em Equipe</div>
+                                <div class="soft-skill-description">Colaboração multidisciplinar</div>
+                            </div>
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-title">Comunicação</div>
+                                <div class="soft-skill-description">Comunicação clara e eficaz</div>
+                            </div>
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-title">Organização</div>
+                                <div class="soft-skill-description">Gestão eficiente de projetos</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="section-content">
+                <div class="project-card featured">
+                    <h3>Sistema de Gestão de Encordoamentos - Smash Center</h3>
+                    <p class="project-period">2024</p>
+                    <div class="project-description">
+                        <p>Desenvolvimento de um sistema completo de gestão de encordoamentos para raquetes de tênis utilizando Salesforce, proporcionando controle total das operações da empresa.</p>
+                        
+                        <h4>Funcionalidades Principais:</h4>
+                        <ul>
+                            <li>Gestão de pedidos de encordoamento</li>
+                            <li>Histórico completo de encordoamentos por cliente</li>
+                            <li>Sistema de relatórios gerenciais</li>
+                            <li>Controle de tensões aplicadas nas cordas (main e cross)</li>
+                            <li>Cadastro detalhado de raquetes e especificações</li>
+                            <li>Gestão de valores e serviços</li>
+                        </ul>
+
+                        <h4>Tecnologias Utilizadas:</h4>
+                        <div class="project-tags">
+                            <span>Salesforce</span>
+                            <span>Apex</span>
+                            <span>SOQL</span>
+                            <span>Lightning Web Components</span>
+                            <span>Salesforce Reports</span>
+                        </div>
+
+                        <h4>Resultados:</h4>
+                        <ul>
+                            <li>Otimização do processo de gestão de encordoamentos</li>
+                            <li>Melhoria no controle de pedidos</li>
+                            <li>Acesso rápido ao histórico de serviços por cliente</li>
+                            <li>Geração de relatórios automatizados para análise de dados</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificados">
+            <h2>Certificados</h2>
+            <div class="section-content">
+                <div class="certificates-grid">
+                    <div class="certificate-card">
+                        <h3>Implementando Banco de Dados</h3>
+                        <p class="institution">Fundação Bradesco - Escola Virtual</p>
+                        <p class="details">
+                            <span class="duration">Carga horária: 15 horas</span>
+                            <span class="completion-date">Conclusão: Novembro/2024</span>
+                        </p>
+                        <div class="certificate-tags">
+                            <span>Banco de Dados</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card">
+                        <h3>Desenvolvendo Aplicações Mobile com Android Studio</h3>
+                        <p class="institution">Fundação Bradesco - Escola Virtual</p>
+                        <p class="details">
+                            <span class="duration">Carga horária: 15 horas</span>
+                            <span class="completion-date">Conclusão: Setembro/2023</span>
+                        </p>
+                        <div class="certificate-tags">
+                            <span>Android</span>
+                            <span>Mobile</span>
+                            <span>Java</span>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card">
+                        <h3>Linguagem de Programação JAVA - Avançado</h3>
+                        <p class="institution">Fundação Bradesco - Escola Virtual</p>
+                        <p class="details">
+                            <span class="duration">Carga horária: 16 horas</span>
+                            <span class="completion-date">Conclusão: Setembro/2023</span>
+                        </p>
+                        <div class="certificate-tags">
+                            <span>Java</span>
+                            <span>Programação</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="idioma" class="idioma-section">
+            <h2>Idioma</h2>
+            <div class="idioma-card">
+                <div class="idioma-content">
+                    <i class="fas fa-globe"></i>
+                    <h3>Inglês</h3>
+                    <div class="nivel">
+                        <span class="nivel-texto">Intermediário</span>
+                        <div class="nivel-barra">
+                            <div class="progresso"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <div class="contact-container">
+                <div class="contact-item">
+                    <i class="fab fa-whatsapp"></i>
+                    <div class="contact-info">
+                        <h3>WhatsApp</h3>
+                        <a href="https://wa.me/5515997903338">(15) 99790-3338</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="far fa-envelope"></i>
+                    <div class="contact-info">
+                        <h3>E-mail</h3>
+                        <a href="mailto:gaby_zala@hotmail.com">gaby_zala@hotmail.com</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <div class="contact-info">
+                        <h3>LinkedIn</h3>
+                        <a href="#">Gabriela Zala</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <div class="contact-info">
+                        <h3>GitHub</h3>
+                        <a href="#">@GabrielaZala</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="contact-info">
+                        <h3>Localização</h3>
+                        <p>Sorocaba - SP</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'pt',
+                includedLanguages: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <div id="google_translate_element" style="display: none;"></div>
+</body>
+</html> 
